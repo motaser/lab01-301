@@ -4,7 +4,9 @@ import React, { Component } from 'react'
     render() {
         return (
             <div>
-                
+                <h1>{this.props.title}</h1>
+                <img src={this.props.imageUrl} alt={this.props.imageUrl}></img>
+                <p>{this.props.description}</p>
             </div>
         )
     }
