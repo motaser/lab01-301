@@ -1,15 +1,18 @@
 import React, { Component } from 'react'
 
- class Header extends Component {
+
+ class Footer extends Component {
     render() {
         return (
             <div>
-               <header>
-                   <h1>welcome to my site </h1>
-                </header> 
+              <foorer>
+                  <p> montaser araidah &copy; 2021 </p>
+            </foorer>  
+
             </div>
         )
     }
 }
 
-export default Header
+
+export default Footer
