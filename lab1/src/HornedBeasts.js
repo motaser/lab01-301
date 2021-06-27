@@ -29,7 +29,7 @@ class HornedBeasts extends React.Component {
         return (
 
             <Col xs={12} md={6} sm={9} xl={4} style={{ paddingTop: "10vh", paddingLeft: "10vh" }} >
-                <Card style={{ width: "80%", height: "100%" }} bg={'danger'}>
+                <Card style={{ width: "85%", height: "100%" }} bg={'danger'}>
                     <Card.Img width={200}
                         height={280} onClick={this.addVote0} variant="top" src={this.props.image_url} alt={this.props.title} />
                     <Card.Body>
