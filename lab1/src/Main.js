@@ -1,18 +1,20 @@
 import React, { Component } from 'react'
 import HornedBeasts from './HornedBeasts'
 import beastData from './data.json'
+    import { Row } from 'react-bootstrap'
 
 class Main extends Component {
     render() {
         return (
-            <div>
+            <Row>
                 {beastData.map((beast, index)=>{
 
                   return <HornedBeasts
                   clicks={0}
                   title={beast.title}
-                  imageUrl={beast.image_url}
+                  image_url={beast.image_url}
                   description={beast.description}
+                  modal={this.props.selectedmodal}
                   key={index}
 
                   />
@@ -23,7 +25,7 @@ class Main extends Component {
                 
                 )}
                 
-            </div>
+            </Row>
         )
     }
 }
