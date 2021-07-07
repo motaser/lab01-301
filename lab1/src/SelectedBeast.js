@@ -15,7 +15,7 @@ import { Card,Modal, Button } from 'react-bootstrap'
 
                         <Card style={{ width: "80%", height: "100%",marginLeft: "7vh" }} bg={'warning'}>
                             <Card.Img width={200}
-                                height={280}  src={this.props.modaldata.img_url} alt={this.props.title} />
+                                height={280}  src={this.props.modaldata.image_url} alt={this.props.title} />
                             <Card.Body>
 
                                 <Card.Text>

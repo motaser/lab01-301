@@ -21,7 +21,7 @@ class HornedBeasts extends React.Component {
     clickme =()=> {
         this.props.modal({
             title: this.props.title,
-            imga_url: this.props.imga_url,
+            image_url: this.props.image_url,
             description: this.props.description
         })
     }
