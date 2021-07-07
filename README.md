@@ -1,10 +1,9 @@
-# lab01-301
-Number and name of feature: __lab 2
+Number and name of feature: _____lab 03___________________________
 
-Estimate of time needed to complete: __4 hours___
+Estimate of time needed to complete: ___4_hours_
 
-Start time: _1 pm____
+Start time: ___2pm__
 
-Finish time: _10 pm
+Finish time: __9pm___
 
-Actual time needed to complete: _9 hours
+Actual time needed to complete: __7 hours___
