@@ -7,7 +7,7 @@ class Main extends Component {
     render() {
         return (
             <Row>
-                {beastData.map((beast, index)=>{
+                {this.props.data.map((beast, index)=>{
 
                   return <HornedBeasts
                   clicks={0}
