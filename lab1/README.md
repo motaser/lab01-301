@@ -1,4 +1,4 @@
-Number and name of feature: _____lab 03___________________________
+Number and name of feature: _____lab 04___________________________
 
 Estimate of time needed to complete: ___4_hours_
 

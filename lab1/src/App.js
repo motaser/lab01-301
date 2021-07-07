@@ -4,7 +4,7 @@ import Main from './Main';
 import Footer from './Footer';
 import SelectedBeast from './SelectedBeast';
 import beastData from './data.json'
-
+import Filter from './Filter'
  class App extends Component {
   constructor(props) {
     super(props);
@@ -12,6 +12,7 @@ import beastData from './data.json'
         hornsData:beastData,
         show:false,
         modaldata:{},
+        filterData:beastData,
     }
 }
 handleshow = (data) => {
@@ -25,13 +26,20 @@ handleclose = ()=>{
         show:false,
     })
 }
+afterUp=(item)=>{
+  this.setState({
+    filterData:item,
+  })
+  
+}
 
 
   render() {
     return (
       <div>
         <Header />
-        < Main  selectedmodal={this.handleshow } data={this.state.hornsData}/>
+        <Filter afterUp={this.afterUp} selectItem={this.state.hornsData}/>
+        < Main  selectedmodal={this.handleshow } data={this.state.filterData}/>
         <SelectedBeast  handleExit={this.handleclose} showdata={this.state.show } modaldata={this.state.modaldata}/>
         <Footer />
       </div>
